@@ -10,19 +10,19 @@ public class CoffeeMaker {
 		addCondiments();
 	}
 	
-	private void boilWater(){
+	public void boilWater(){
 		System.out.println("Boiling water");
 	}
 	
-	private void addCoffeeBag(){
+	public void addCoffeeBag(){
 		System.out.println("Add coffee bag");
 	}
 	
-	private void pourCoffee(){
+	public void pourCoffee(){
 		System.out.println("Pour coffee");
 	}
 	
-	private void addCondiments(){
+	public void addCondiments(){
 		System.out.println("Add condiments");
 	}
 
